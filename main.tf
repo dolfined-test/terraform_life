@@ -1,5 +1,6 @@
 provider "aws" {
   region = "us-east-2"
+  profile = "dolfined_admin"
 }
 variable "inetrnal_ports" {
   type    = list(any)
